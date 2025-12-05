@@ -29,7 +29,7 @@ Contains the paper PDF, supplementary notes, and bibliographic references.
 
 ---
 
-### 📁 models
+### 📁 model
 
 包含四旋翼、两段机械臂、缆绳与负载系统的 MuJoCo 模型，包括：
 Includes MuJoCo models of the quadrotor, two-link robotic arm, cable, and payload:
