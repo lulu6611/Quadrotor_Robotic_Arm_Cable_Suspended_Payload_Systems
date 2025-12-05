@@ -36,7 +36,7 @@ Includes MuJoCo models of the quadrotor, two-link robotic arm, cable, and payloa
 
 * uav_MW.xml 主模型文件
   uav_MW.xml as the main MuJoCo simulation model
-* meshes 文件夹：机体、机械臂、传感器、负载等三维网格
+* 📁 meshes 文件夹：机体、机械臂、传感器、负载等三维网格
   meshes folder containing 3D geometry of the UAV body, arm links, sensors, and payload
 
 ---
@@ -46,7 +46,7 @@ Includes MuJoCo models of the quadrotor, two-link robotic arm, cable, and payloa
 核心代码目录，分为以下子模块：
 The main source code directory, organized into the following components:
 
-#### 不同绳长、质量、轨迹下的飞行原始数据  📁Identification-ready raw data
+#### 不同绳长、质量、轨迹下的飞行原始数据  📁Identification-ready-raw-data
 
 Raw flight and simulation data across different cable lengths, payload masses, and trajectories.
 
