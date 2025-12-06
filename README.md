@@ -113,8 +113,8 @@ cd quadrotor-arm-cable-hybrid-control
 
 ### Configure Model File Paths
 
-0. 将仓库 📁quadrotor-arm-cable-hybrid-control 保存在电脑上
-   Save the repository locally on your computer.
+0. 将仓库中的📦 quadrotor-arm-cable-hybrid-control.zip 保存在电脑上
+   Save 📦 quadrotor-arm-cable-hybrid-control.zip locally on your computer.
 
 1. 文件夹内容应如下，确保 uav_MW.xml 与 📁meshes 文件夹放在同一目录下：
    Ensure the folder structure matches the list below and uav_MW.xml is placed together with the meshes folder.
