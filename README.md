@@ -52,17 +52,57 @@ Includes MuJoCo models of the quadrotor, two-link robotic arm, cable, and payloa
 核心代码目录，分为以下子模块：
 The main source code directory, organized into the following components:
 
-#### 不同绳长、质量、轨迹下的飞行原始数据  📁Identification-ready-raw-data
+#### 1.不同绳长、质量、轨迹下的飞行原始数据  📁Identification-ready-raw-data
 
-Raw flight and simulation data across different cable lengths, payload masses, and trajectories.
+1.Raw flight and simulation data across different cable lengths, payload masses, and trajectories.
 
-#### 数据驱动的辨识脚本
+#### 2.数据驱动的辨识脚本  📁Data-driven-identification-scripts
 
-Data-driven identification scripts for model parameter estimation.
+2.Data-driven identification scripts for model parameter estimation.
 
-#### 不同实验的测试轨迹
+将📁Identification-ready-raw-data中的数据解压缩，并放在一个自行创建的空白文件夹中，文件夹命名为 “MCG_Data_Stable_xxx”其中xxx你可随意命名，此处命名为“MCG_Data_Stable_001”。  
+Extract the data from 📁Identification-ready-raw-data and place it in a newly created empty folder. Name the folder as "MCG_Data_Stable_xxx", where xxx can be any name you choose. Here we name it as "MCG_Data_Stable_001".
 
-Test trajectories used across experiments.
+具体文件夹结构如下：  
+The specific folder structure is as follows:
+
+```
+Data-driven-identification-scripts/
+├──Code-Introductio（代码介绍）.txt
+├──display_comprehensive_mcg_summary.m
+├──perform_grouped_mcg_estimation.m
+├──perform_intelligent_mcg_fusion.m
+├──perform_physics_based_mcg_identification.m
+├──process_collected_mcg_data.m
+├──save_mcg_processing_results.m
+├──smart_data_loader_and_selector.m
+├──validate_and_analyze_mcg_results.m
+├──validate_physics_identification_results.m
+├──build_mujoco_theoretical_model.m
+│
+├── MCG_Data_Stable_001/
+│   ├── run_001_Z_Axis_I2_F2_STABLE_RECOMMENDED_data.mat
+│   ├── run_002_Z_Axis_I3_F2_STABLE_RECOMMENDED_data.mat
+│   ├── run_003_Z_Axis_I4_F2_OK_data.mat
+│   ├── ...
+│   ├── ...
+│   ├── ...
+│   └── run_043_Army_Joint_I4_F3_STABLE_RECOMMENDED_data.mat
+```
+之后再matlab中打开至“Data-driven-identification-scripts”这个文件夹，运行如下代码：  
+Then in MATLAB, navigate to the "Data-driven-identification-scripts" folder and run the following code:  
+
+```
+process_collected_mcg_data()
+```
+
+
+
+#### 3.不同实验的测试轨迹
+
+3.Test trajectories used across experiments.  
+本论文主要讨论控制器设计，具体轨迹规划和轨迹优化设计读者可自行设计，具体可看视频中的几个案例轨迹。    
+This paper primarily focuses on controller design. Readers may develop their own trajectory planning and trajectory optimization algorithms as needed. Several example trajectories are demonstrated in the accompanying video.
 
 ---
 
