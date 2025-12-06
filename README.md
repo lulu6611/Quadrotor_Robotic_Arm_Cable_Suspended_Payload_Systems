@@ -60,7 +60,7 @@ Test trajectories used across experiments.
 
 ---
 
-### 📁 quadrotor-arm-cable-hybrid-control
+### 📦 quadrotor-arm-cable-hybrid-control.zip
 
 直接运行的仿真程序，轨迹可以自己设置，已包含辨识结果。
 A ready-to-run simulation environment that allows custom trajectory inputs and includes identified model parameters.
