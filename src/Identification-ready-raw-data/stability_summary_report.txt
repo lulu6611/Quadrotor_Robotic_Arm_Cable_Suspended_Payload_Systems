@@ -1,0 +1,132 @@
+============================================
+    无人机MCG数据采集报告 (稳定性增强版)
+============================================
+
+生成时间: 2025-09-08 21:15:57
+数据目录: C:\Users\46726\Desktop\UAV_MUJOCO_MATLAB\数据驱动融合物理模型实验-12\MCG_Data_Stable_20250908_202224
+采集时间: 20:22:24 至 21:15:57
+总用时: 53.5分钟
+
+== 稳定性统计 ==
+
+总测试数: 48
+成功采集: 41
+失败次数: 4
+稳定数据: 41 (85.4%)
+失稳数据: 0 (0.0%)
+推荐用于辨识: 31
+
+== 稳定性详细分析 ==
+
+按激励类型的稳定性:
+Type               Total   Stable Unstable   Stability%
+------------------------------------------------------------
+Z_Axis                 8        8        0       100.0%
+Pitch                  9        9        0       100.0%
+Armz_Joint            12       12        0       100.0%
+Army_Joint            12       12        0       100.0%
+
+== 推荐用于辨识的数据 ==
+
+Run  Type            Int      Freq     Quality    Stability    File           
+------------------------------------------------------------------------------------------
+  1  Z_Axis                2       2      0.78   Excellent  run_001_Z_Axis_I2_F2_STABLE_RECOMMENDED_data.mat
+  2  Z_Axis                3       2      0.81   Excellent  run_002_Z_Axis_I3_F2_STABLE_RECOMMENDED_data.mat
+  5  Z_Axis                2       3      0.79   Excellent  run_005_Z_Axis_I2_F3_STABLE_RECOMMENDED_data.mat
+  6  Z_Axis                3       3      0.82   Excellent  run_006_Z_Axis_I3_F3_STABLE_RECOMMENDED_data.mat
+  9  Z_Axis                2       4      0.79   Excellent  run_009_Z_Axis_I2_F4_STABLE_RECOMMENDED_data.mat
+ 13  Pitch                 2       2      0.86   Excellent  run_013_Pitch_I2_F2_STABLE_RECOMMENDED_data.mat
+ 17  Pitch                 2       3      0.86   Excellent  run_017_Pitch_I2_F3_STABLE_RECOMMENDED_data.mat
+ 25  Armz_Joint            2       2      1.00   Excellent  run_025_Armz_Joint_I2_F2_STABLE_RECOMMENDED_data.mat
+ 26  Armz_Joint            3       2      1.00   Excellent  run_026_Armz_Joint_I3_F2_STABLE_RECOMMENDED_data.mat
+ 27  Armz_Joint            4       2      1.00   Excellent  run_027_Armz_Joint_I4_F2_STABLE_RECOMMENDED_data.mat
+ 28  Armz_Joint            5       2      1.00   Excellent  run_028_Armz_Joint_I5_F2_STABLE_RECOMMENDED_data.mat
+ 29  Armz_Joint            2       3      1.00   Excellent  run_029_Armz_Joint_I2_F3_STABLE_RECOMMENDED_data.mat
+ 30  Armz_Joint            3       3      1.00   Excellent  run_030_Armz_Joint_I3_F3_STABLE_RECOMMENDED_data.mat
+ 31  Armz_Joint            4       3      1.00   Excellent  run_031_Armz_Joint_I4_F3_STABLE_RECOMMENDED_data.mat
+ 32  Armz_Joint            5       3      1.00   Excellent  run_032_Armz_Joint_I5_F3_STABLE_RECOMMENDED_data.mat
+ 33  Armz_Joint            2       4      1.00   Excellent  run_033_Armz_Joint_I2_F4_STABLE_RECOMMENDED_data.mat
+ 34  Armz_Joint            3       4      1.00   Excellent  run_034_Armz_Joint_I3_F4_STABLE_RECOMMENDED_data.mat
+ 35  Armz_Joint            4       4      1.00   Excellent  run_035_Armz_Joint_I4_F4_STABLE_RECOMMENDED_data.mat
+ 36  Armz_Joint            5       4      1.00   Excellent  run_036_Armz_Joint_I5_F4_STABLE_RECOMMENDED_data.mat
+ 37  Army_Joint            2       2      1.00   Excellent  run_037_Army_Joint_I2_F2_STABLE_RECOMMENDED_data.mat
+ 38  Army_Joint            3       2      1.00   Excellent  run_038_Army_Joint_I3_F2_STABLE_RECOMMENDED_data.mat
+ 39  Army_Joint            4       2      1.00   Excellent  run_039_Army_Joint_I4_F2_STABLE_RECOMMENDED_data.mat
+ 40  Army_Joint            5       2      1.00   Excellent  run_040_Army_Joint_I5_F2_STABLE_RECOMMENDED_data.mat
+ 41  Army_Joint            2       3      1.00   Excellent  run_041_Army_Joint_I2_F3_STABLE_RECOMMENDED_data.mat
+ 42  Army_Joint            3       3      1.00   Excellent  run_042_Army_Joint_I3_F3_STABLE_RECOMMENDED_data.mat
+ 43  Army_Joint            4       3      1.00   Excellent  run_043_Army_Joint_I4_F3_STABLE_RECOMMENDED_data.mat
+ 44  Army_Joint            5       3      1.00   Excellent  run_044_Army_Joint_I5_F3_STABLE_RECOMMENDED_data.mat
+ 45  Army_Joint            2       4      1.00   Excellent  run_045_Army_Joint_I2_F4_STABLE_RECOMMENDED_data.mat
+ 46  Army_Joint            3       4      1.00   Excellent  run_046_Army_Joint_I3_F4_STABLE_RECOMMENDED_data.mat
+ 47  Army_Joint            4       4      1.00   Excellent  run_047_Army_Joint_I4_F4_STABLE_RECOMMENDED_data.mat
+ 48  Army_Joint            5       4      1.00   Excellent  run_048_Army_Joint_I5_F4_STABLE_RECOMMENDED_data.mat
+
+== 所有稳定数据 ==
+
+Run  Type            Int      Freq     Quality    Stability    Recommended
+--------------------------------------------------------------------------------
+  1  Z_Axis                2       2      0.78   Excellent        YES
+  2  Z_Axis                3       2      0.81   Excellent        YES
+  3  Z_Axis                4       2      0.73        Good         No
+  4  Z_Axis                5       2      0.79        Good         No
+  5  Z_Axis                2       3      0.79   Excellent        YES
+  6  Z_Axis                3       3      0.82   Excellent        YES
+  7  Z_Axis                4       3      0.75        Good         No
+  9  Z_Axis                2       4      0.79   Excellent        YES
+ 13  Pitch                 2       2      0.86   Excellent        YES
+ 14  Pitch                 3       2      0.74        Good         No
+ 15  Pitch                 4       2      0.74        Good         No
+ 16  Pitch                 5       2      0.74        Good         No
+ 17  Pitch                 2       3      0.86   Excellent        YES
+ 18  Pitch                 3       3      0.76        Good         No
+ 19  Pitch                 4       3      0.78        Good         No
+ 20  Pitch                 5       3      0.83        Good         No
+ 21  Pitch                 2       4      0.88        Good         No
+ 25  Armz_Joint            2       2      1.00   Excellent        YES
+ 26  Armz_Joint            3       2      1.00   Excellent        YES
+ 27  Armz_Joint            4       2      1.00   Excellent        YES
+ 28  Armz_Joint            5       2      1.00   Excellent        YES
+ 29  Armz_Joint            2       3      1.00   Excellent        YES
+ 30  Armz_Joint            3       3      1.00   Excellent        YES
+ 31  Armz_Joint            4       3      1.00   Excellent        YES
+ 32  Armz_Joint            5       3      1.00   Excellent        YES
+ 33  Armz_Joint            2       4      1.00   Excellent        YES
+ 34  Armz_Joint            3       4      1.00   Excellent        YES
+ 35  Armz_Joint            4       4      1.00   Excellent        YES
+ 36  Armz_Joint            5       4      1.00   Excellent        YES
+ 37  Army_Joint            2       2      1.00   Excellent        YES
+ 38  Army_Joint            3       2      1.00   Excellent        YES
+ 39  Army_Joint            4       2      1.00   Excellent        YES
+ 40  Army_Joint            5       2      1.00   Excellent        YES
+ 41  Army_Joint            2       3      1.00   Excellent        YES
+ 42  Army_Joint            3       3      1.00   Excellent        YES
+ 43  Army_Joint            4       3      1.00   Excellent        YES
+ 44  Army_Joint            5       3      1.00   Excellent        YES
+ 45  Army_Joint            2       4      1.00   Excellent        YES
+ 46  Army_Joint            3       4      1.00   Excellent        YES
+ 47  Army_Joint            4       4      1.00   Excellent        YES
+ 48  Army_Joint            5       4      1.00   Excellent        YES
+
+== 数据使用建议 ==
+
+1. 优先使用推荐数据 (标记为_RECOMMENDED):
+   这些数据飞行稳定且激励效果良好
+
+2. 稳定数据 (标记为_STABLE或_OK):
+   可用于辨识，但可能激励效果有限
+
+3. 失稳数据 (标记为_UNSTABLE):
+   不建议用于辨识，但可用于失稳分析
+
+4. 激励强度建议:
+   • 所有测试强度都稳定，可以使用任意强度
+
+5. 加载数据示例:
+   load('run_XXX_TypeName_IX_FX_STABLE_data.mat')
+   stability = save_data.stability;  % 稳定性分析
+   quality = save_data.quick_stats;  % 快速统计
+
+============================================
+              稳定性增强报告结束
+============================================
