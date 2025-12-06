@@ -16,6 +16,12 @@ The materials are intended to help researchers reproduce the main experimental r
 本仓库中的代码仅用于学术参考，不构成可直接部署的飞控系统。
 All code is for academic use only and is not intended as deployable flight-control firmware.
 
+<div align="center">
+  <img src="system structure drawing.png" alt="UAV结构图" width="700">
+  <p><em>图: 四旋翼-机械臂-悬挂负载系统结构图</em></p>
+  <p><em>Figure: Schematic diagram of the quadrotor-robotic-arm-suspended load system</em></p>
+</div>
+
 ---
 
 ## 仓库结构说明
